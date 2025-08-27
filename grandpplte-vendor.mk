@@ -165,7 +165,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/grandpplte/proprietary/lib/hw/gralloc.mt6737t.so:system/lib/hw/gralloc.mt6737t.so \
     vendor/samsung/grandpplte/proprietary/lib/hw/hwcomposer.mt6737t.so:system/lib/hw/hwcomposer.mt6737t.so \
     vendor/samsung/grandpplte/proprietary/lib/hw/keystore.mt6737t.so:system/lib/hw/keystore.mt6737t.so \
-    vendor/samsung/grandpplte/proprietary/lib/hw/lights.mt6737t.so:system/lib/hw/lights.mt6737t.so \
     vendor/samsung/grandpplte/proprietary/lib/hw/memtrack.mt6737t.so:system/lib/hw/memtrack.mt6737t.so \
     vendor/samsung/grandpplte/proprietary/lib/hw/sensors.mt6737t.so:system/lib/hw/sensors.mt6737t.so \
     vendor/samsung/grandpplte/proprietary/lib/lib3a.so:system/lib/lib3a.so \
