@@ -32,6 +32,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/grandpplte/proprietary/bin/tzdaemon:system/bin/tzdaemon \
     vendor/samsung/grandpplte/proprietary/bin/wifi2agps:system/bin/wifi2agps \
     vendor/samsung/grandpplte/proprietary/bin/wmt_loader:system/bin/wmt_loader \
+    vendor/samsung/grandpplte/proprietary/etc/agps_profiles_conf2.xml:system/etc/agps_profiles_conf2.xml \
     vendor/samsung/grandpplte/proprietary/etc/apdb/APDB_MT6735_S01_alps-mp-m1.mp8.tc10sp_W16.35:system/etc/apdb/APDB_MT6735_S01_alps-mp-m1.mp8.tc10sp_W16.35 \
     vendor/samsung/grandpplte/proprietary/etc/apdb/APDB_MT6735_S01_alps-mp-m1.mp8.tc10sp_W16.35_ENUM:system/etc/apdb/APDB_MT6735_S01_alps-mp-m1.mp8.tc10sp_W16.35_ENUM \
     vendor/samsung/grandpplte/proprietary/etc/audio_device.xml:system/etc/audio_device.xml \
@@ -149,6 +150,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/grandpplte/proprietary/etc/firmware/mt6627/mt6627_fm_v5_patch.bin:system/etc/firmware/mt6627/mt6627_fm_v5_patch.bin \
     vendor/samsung/grandpplte/proprietary/etc/fmr/mt6627_fm_channel_param.dat:system/etc/fmr/mt6627_fm_channel_param.dat \
     vendor/samsung/grandpplte/proprietary/etc/fmr/mt6627_fm_cust.cfg:system/etc/fmr/mt6627_fm_cust.cfg \
+    vendor/samsung/grandpplte/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/samsung/grandpplte/proprietary/etc/mddb/DbgInfo_LR9.W1444.MD.LWTG.MP_TITAN6737_PHONE_1_lwg_n:system/etc/mddb/DbgInfo_LR9.W1444.MD.LWTG.MP_TITAN6737_PHONE_1_lwg_n \
     vendor/samsung/grandpplte/proprietary/etc/mddb/MDDB.META_TITAN6737_PHONE_1_lwg_n.EDB:system/etc/mddb/MDDB.META_TITAN6737_PHONE_1_lwg_n.EDB \
     vendor/samsung/grandpplte/proprietary/etc/mddb/MDDB_TITAN6737_PHONE_1_lwg_n.EDB:system/etc/mddb/MDDB_TITAN6737_PHONE_1_lwg_n.EDB \
@@ -162,6 +164,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/grandpplte/proprietary/lib/hw/audio.primary.mt6737t.so:system/lib/hw/audio.primary.mt6737t.so \
     vendor/samsung/grandpplte/proprietary/lib/hw/camera.mt6737t.so:system/lib/hw/camera.mt6737t.so \
     vendor/samsung/grandpplte/proprietary/lib/hw/gatekeeper.mt6737t.so:system/lib/hw/gatekeeper.mt6737t.so \
+    vendor/samsung/grandpplte/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/samsung/grandpplte/proprietary/lib/hw/gralloc.mt6737t.so:system/lib/hw/gralloc.mt6737t.so \
     vendor/samsung/grandpplte/proprietary/lib/hw/hwcomposer.mt6737t.so:system/lib/hw/hwcomposer.mt6737t.so \
     vendor/samsung/grandpplte/proprietary/lib/hw/keystore.mt6737t.so:system/lib/hw/keystore.mt6737t.so \
