@@ -258,14 +258,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/grandpplte/proprietary/lib/libgas.so:system/lib/libgas.so \
     vendor/samsung/grandpplte/proprietary/lib/libged.so:system/lib/libged.so \
     vendor/samsung/grandpplte/proprietary/lib/libgpu_aux.so:system/lib/libgpu_aux.so \
-    vendor/samsung/grandpplte/proprietary/lib/libgralloc_extra.so:system/lib/libgralloc_extra.so \
-    vendor/samsung/grandpplte/proprietary/lib/libgui_ext.so:system/lib/libgui_ext.so \
     vendor/samsung/grandpplte/proprietary/lib/libh264enc_sa.ca7.so:system/lib/libh264enc_sa.ca7.so \
     vendor/samsung/grandpplte/proprietary/lib/libh264enc_sb.ca7.so:system/lib/libh264enc_sb.ca7.so \
     vendor/samsung/grandpplte/proprietary/lib/libhwm.so:system/lib/libhwm.so \
     vendor/samsung/grandpplte/proprietary/lib/libimageio.so:system/lib/libimageio.so \
     vendor/samsung/grandpplte/proprietary/lib/libimageio_plat_drv.so:system/lib/libimageio_plat_drv.so \
-    vendor/samsung/grandpplte/proprietary/lib/libion_mtk.so:system/lib/libion_mtk.so \
     vendor/samsung/grandpplte/proprietary/lib/libkeymaster_helper_bf.so:system/lib/libkeymaster_helper_bf.so \
     vendor/samsung/grandpplte/proprietary/lib/libkeymaster_mdfpp_bf.so:system/lib/libkeymaster_mdfpp_bf.so \
     vendor/samsung/grandpplte/proprietary/lib/libm4u.so:system/lib/libm4u.so \
@@ -318,7 +315,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/grandpplte/proprietary/lib/libstrongswan.so:system/lib/libstrongswan.so \
     vendor/samsung/grandpplte/proprietary/lib/libsxqk.so:system/lib/libsxqk.so \
     vendor/samsung/grandpplte/proprietary/lib/libteecl.so:system/lib/libteecl.so \
-    vendor/samsung/grandpplte/proprietary/lib/libui_ext.so:system/lib/libui_ext.so \
     vendor/samsung/grandpplte/proprietary/lib/libuvtswenc_sa.ca7.android.so:system/lib/libuvtswenc_sa.ca7.android.so \
     vendor/samsung/grandpplte/proprietary/lib/libvc1dec_sa.ca7.so:system/lib/libvc1dec_sa.ca7.so \
     vendor/samsung/grandpplte/proprietary/lib/libvcodec_oal.so:system/lib/libvcodec_oal.so \
@@ -344,3 +340,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/grandpplte/proprietary/vendor/lib/libaudiotoolkit.so:system/vendor/lib/libaudiotoolkit.so \
     vendor/samsung/grandpplte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/grandpplte/proprietary/xbin/mnld:system/xbin/mnld
+
+PRODUCT_PACKAGES += \
+    libgralloc_extra \
+    libion_mtk

@@ -18,4 +18,24 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),grandpplte)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := libgralloc_extra
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/lib/libgralloc_extra.so
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libion_mtk
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/lib/libion_mtk.so
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
 endif
