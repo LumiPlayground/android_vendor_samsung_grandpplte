@@ -327,6 +327,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/grandpplte/proprietary/lib/libvp8dec_sa.ca7.so:system/lib/libvp8dec_sa.ca7.so \
     vendor/samsung/grandpplte/proprietary/lib/libvp8enc_sa.ca7.so:system/lib/libvp8enc_sa.ca7.so \
     vendor/samsung/grandpplte/proprietary/lib/libvp9dec_sa.ca7.so:system/lib/libvp9dec_sa.ca7.so \
+    vendor/samsung/grandpplte/proprietary/lib/libwifi-service.so:system/lib/libwifi-service.so \
     vendor/samsung/grandpplte/proprietary/tee/00000000-0000-0000-0000-00000000dead:system/tee/00000000-0000-0000-0000-00000000dead \
     vendor/samsung/grandpplte/proprietary/tee/00000000-0000-0000-0000-000000534b4d:system/tee/00000000-0000-0000-0000-000000534b4d \
     vendor/samsung/grandpplte/proprietary/tee/00000000-0000-0000-0000-00535453540a:system/tee/00000000-0000-0000-0000-00535453540a \
